@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios/unsafe/axios.js';
 // import { axios } from './../../../node_modules/axios/dist/esm/axios';
+import Avatar from "../../assets/avataaars (1).svg"
+
 export default function Home() {
 
   return(
     <>
     <div className='text-center'>
-      <img src='src/components/imgs/portfolio/avataaars (1).svg' className=' w-25 my-5 ' alt="" />
+      <img src={Avatar} className=' w-25 my-5 ' alt="" />
       <h1 className='text-white fw-bolder'>Start Framework</h1>
       <i _ngcontent-bui-c6="" class="fa-solid fa-star text-white position-relative">
         <div className='home-slash'></div>

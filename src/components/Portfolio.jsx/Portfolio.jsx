@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
-
+import porti1 from "../../assets/poert1.png"
+import porti2 from "../../assets/port2.png"
+import porti3 from "../../assets/port3.png"
 // useEffect
 
 export default function Portfolio() {
@@ -17,7 +19,7 @@ export default function Portfolio() {
           <div className="row g-5">
             <div className="col-md-4">
               <div className="inner-portfolio position-relative">
-                <img src="src/components/imgs/poert1.png" className='w-100' alt="" />
+                <img src={porti1} className='w-100' alt="" />
                 <div className='w-100 portfolio-Layout'> 
                   <i _ngcontent-bui-c19="" className="text-white fa-solid fa-plus fa-6x"></i> 
                 </div>
@@ -25,7 +27,7 @@ export default function Portfolio() {
             </div>
             <div className="col-md-4">
               <div className="inner-portfolio position-relative">
-                <img src="src/components/imgs/port2.png" className='w-100' alt="" />
+                <img src={porti2} className='w-100' alt="" />
                 <div className='w-100 portfolio-Layout'> 
                   <i _ngcontent-bui-c19="" className="text-white fa-solid fa-plus fa-6x"></i> 
                 </div>
@@ -33,7 +35,7 @@ export default function Portfolio() {
             </div>
             <div className="col-md-4">
               <div className="inner-portfolio position-relative">
-                <img src="src/components/imgs/port3.png" className='w-100' alt="" />
+                <img src={porti3} className='w-100' alt="" />
                 <div className='w-100 portfolio-Layout'> 
                   <i _ngcontent-bui-c19="" className="text-white fa-solid fa-plus fa-6x"></i> 
                 </div>
@@ -41,7 +43,7 @@ export default function Portfolio() {
             </div>
             <div className="col-md-4">
               <div className="inner-portfolio position-relative">
-                <img src="src/components/imgs/poert1.png" className='w-100' alt="" />
+                <img src={porti1} className='w-100' alt="" />
                 <div className='w-100 portfolio-Layout'> 
                   <i _ngcontent-bui-c19="" className="text-white fa-solid fa-plus fa-6x"></i> 
                 </div>
@@ -49,7 +51,7 @@ export default function Portfolio() {
             </div>
             <div className="col-md-4">
               <div className="inner-portfolio position-relative">
-                <img src="src/components/imgs/port2.png" className='w-100' alt="" />
+                <img src={porti2} className='w-100' alt="" />
                 <div className='w-100 portfolio-Layout'> 
                   <i _ngcontent-bui-c19="" className="text-white fa-solid fa-plus fa-6x"></i> 
                 </div>
@@ -57,7 +59,7 @@ export default function Portfolio() {
             </div>
             <div className="col-md-4">
               <div className="inner-portfolio position-relative">
-                <img src="src/components/imgs/port3.png" className='w-100' alt="" />
+                <img src={porti3} className='w-100' alt="" />
                 <div className='w-100 portfolio-Layout'> 
                   <i _ngcontent-bui-c19="" className="text-white fa-solid fa-plus fa-6x"></i> 
                 </div>
